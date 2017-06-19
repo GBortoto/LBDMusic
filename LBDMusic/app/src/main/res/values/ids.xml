@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Id da barra de pesquisa-->
+    <item name="searchBar" type="id" />
+
+</resources>

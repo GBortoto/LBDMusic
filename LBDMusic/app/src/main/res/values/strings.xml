@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">LBDMusic</string>
+
+    <!-- Login Activity -->
+    <string name="loginActivity">LoginActivity</string>
+    <string name="loginTitle">Login</string>
+    <string name="loginImage">Logo</string>
+    <string name="emailInput">Email</string>
+    <string name="passwordInput">Password</string>
+    <string name="loginBtn">Login</string>
+    <string name="registerBtn">Not a member? Get registered now!</string>
+    <string name="forgotBtn">Forgot your password?</string>
+
+    <!-- Reset Activity -->
+    <string name="resetActivity">ResetActivity</string>
+    <string name="resetTitle">Reset</string>
+    <string name="resetSend">Send Password reset email</string>
+    <string name="resetMessage">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="resetInput">Email</string>
+    <string name="resetBtn">Reset Password</string>
+    <string name="resetBack"><![CDATA[<< Back]]></string>
+
+    <!-- Signup Activity -->
+    <string name="signupActivity">SignupActivity</string>
+    <string name="signupTitle">Signup</string>
+    <string name="signupName">Fantasy Name</string>
+    <string name="signupEmail">Email</string>
+    <string name="signupPassword">Password</string>
+    <string name="signupType">Tipo de Conta</string>
+    <string name="signupBtn">Register</string>
+    <string name="signupLogin">Already registered. Login Me!</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="profileContractorActivity">profileContractorActivity</string>
+
+    <!-- Image Picker -->
+    <string name="pick_image_intent_text">Select a Picture</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile_musician"></string>
+
+
+    <string name="nomeDaBanda">Nome da Banda</string>
+    <string name="sobre_nos">Sobre nós</string>
+    <string name="calendario">Calendário</string>
+    <string name="avaliacoes">Avaliações</string>
+    <string name="Samba_Rock">Samba Rock</string>
+    <string name="Samba">Samba</string>
+    <string name="Pagode">Pagode</string>
+    <string name="Get_in_touch">Get in touch!</string>
+    <string name="Outros_contatos">"Outros contatos:"</string>
+
+
+    <string name="teste">TESTE</string>
+    <string name="searchResultText">Resultados</string>
+</resources>

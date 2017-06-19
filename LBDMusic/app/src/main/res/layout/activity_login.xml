@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/lib/com.rogacheski.lbd.lbdmusic"
+    android:background="@color/colorPrimaryDark"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/loginTop"
+        android:paddingStart="@dimen/loginLeft"
+        android:paddingEnd="@dimen/loginRight"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ImageView android:src="@drawable/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/loginLogo"
+            android:layout_marginBottom="@dimen/loginBottom"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/loginImage"
+            tools:ignore="ContentDescription" />
+
+        <!-- Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/input_email"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="@string/emailInput" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+            android:layout_marginTop="8dp"
+            app:passwordToggleEnabled="false"
+            android:layout_marginBottom="8dp">
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="@string/passwordInput" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:text="@string/loginBtn"/>
+
+        <Button
+            android:id="@+id/btn_reset_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:text="@string/forgotBtn"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent" />
+
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:text="@string/registerBtn"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</ScrollView>

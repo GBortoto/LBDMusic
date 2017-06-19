@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LayoutPrincipal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="4dip"
+    android:gravity="center_horizontal"
+    android:background="@color/black"
+    >
+    <ImageView
+        android:id= "@+id/imageViewBanda"
+        android:onClick="AlterarImagemDaBanda"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        />
+    <RatingBar
+        android:id="@+id/ratingStars"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="25dp"
+        android:numStars="5"
+        android:isIndicator="false"
+        android:layout_alignParentEnd="true"
+        android:progressTint="@color/white"
+        android:backgroundTint="@color/black"
+        style = "@style/foodRatingBar"
+        />
+    <TextView
+        android:id="@+id/tvTituloDaBanda"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:textSize="45sp"
+        android:text=""
+        style="@style/Standard_Font"
+        android:layout_marginBottom="52dp"
+        android:layout_above="@+id/LayoutTabBandaHomePage"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:id = "@+id/lLTags"
+        android:layout_above = "@+id/LayoutTabBandaHomePage"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        >
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id = "@+id/LayoutTabBandaHomePage"
+        android:layout_height = "wrap_content"
+        android:layout_width = "wrap_content"
+        android:layout_below="@id/imageViewBanda"
+        android:layout_centerHorizontal = "true"
+        app:tabTextColor="@color/white"
+        app:tabIndicatorColor="@color/white"
+        app:tabBackground="@color/black"
+        app:tabSelectedTextColor="@color/white"
+        style="@style/Standard_Font"
+        app:tabMode="fixed"
+        app:tabGravity = "center"/>
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/Pager"
+        android:layout_width= "match_parent"
+        android:layout_height = "match_parent"
+        android:layout_below="@id/LayoutTabBandaHomePage"
+        tools:context="net.Voidynullness.android.tabitytabs.tabLayoutActivity">
+    </android.support.v4.view.ViewPager>
+
+
+
+</RelativeLayout>

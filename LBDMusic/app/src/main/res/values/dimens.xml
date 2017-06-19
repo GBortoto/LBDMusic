@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="padding64">64dp</dimen>
+    <dimen name="padding48">48dp</dimen>
+    <dimen name="padding32">32dp</dimen>
+    <dimen name="padding16">16dp</dimen>
+    <dimen name="padding12">12dp</dimen>
+    <dimen name="padding8">8dp</dimen>
+    <dimen name="padding4">4dp</dimen>
+
+    <!-- Login Activity -->
+    <dimen name="loginTop">56dp</dimen>
+    <dimen name="loginLeft">24dp</dimen>
+    <dimen name="loginRight">24dp</dimen>
+    <dimen name="loginBottom">24dp</dimen>
+    <dimen name="loginLogo">72dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Profile Activity -->
+    <dimen name="profileTop">12dp</dimen>
+    <dimen name="field_height">56dp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+
+    <!-- CardView Icons -->
+    <dimen name="cardview_icon_Large">160dp</dimen>
+    <dimen name="cardview_icon_medium">60dp</dimen>
+    <dimen name="cardview_icon_back">40dp</dimen>
+    <dimen name="cardview_icon_smail">20dp</dimen>
+    <dimen name="cardview_icon_button">50dp</dimen>
+
+    <!-- BarraInferior-->
+    <dimen name="BottonHeight">50dp</dimen>
+
+    <!-- Option icons - search -->
+    <dimen name="OptionH">100dp</dimen>
+    <dimen name="OptionW">100dp</dimen>
+
+    <!-- Size list -->
+    <dimen name="sizeList">500dp</dimen>
+    <dimen name="listFontSize">20sp</dimen>
+    <dimen name="toolbarTextH">50dp</dimen>
+
+</resources>

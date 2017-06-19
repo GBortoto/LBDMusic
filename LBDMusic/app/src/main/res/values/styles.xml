@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Editfield" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="AppTheme.Launcher" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Profile Theme -->
+    <style name="AppTheme.profile" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+
+    </style>
+
+    <!-- Action Bar Theme -->
+    <style name="TranslucentActionBar" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <!-- Text Field Theme -->
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout.Primary" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout.Black" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Dialog Theme -->
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Drawer Theme -->
+    <style name="ThemeOverlay.AppCompat.Dark.Drawer" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name = "Standard_Font" parent= "@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="foodRatingBar" parent = "@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingstar</item>
+        <item name="android:minHeight">22dip</item>
+        <item name="android:maxHeight">22dip</item>
+    </style>
+
+    <!-- Profile Band Theme -->
+    <style name="AppTheme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+    </style>
+
+</resources>
